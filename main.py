@@ -25,7 +25,7 @@ class DownloadLayout(BoxLayout):
             except Exception as e:
                 self.url_input.text = f'حدث خطأ: {str(e)}'
 
-class VideoDownloaderApp(App):
+class VideoDownloaderApp2030(App):
     def build(self):
         return DownloadLayout()
 
